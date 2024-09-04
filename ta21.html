@@ -1,0 +1,17 @@
+<!DOCTYPE html><html>
+    <head>
+    </head>
+    <body>
+        <input id="foco" style: borderColortype="text"  placeholder="Libre albedrio">
+        <script>
+            const entrada = document.getElementById("foco");
+
+            entrada.addEventListener("focus", () =>{
+                entrada.style.borderColor = "black";
+            })
+            entrada.addEventListener("blur", () =>{
+                entrada.style.borderColor = "white";
+            })
+        </script>
+    </body>
+</html>
